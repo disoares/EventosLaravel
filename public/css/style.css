@@ -42,6 +42,10 @@ header {
     padding: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* navbar */
 #navbar img {
     width: 40px;
@@ -184,6 +188,38 @@ header {
     margin: 20px 0;
 }
 
+#items-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#items-list li {
+    display: flex;
+}
+
+#description-container {
+    margin-top: 30px;
+}
+
+/* Dashboard */
+
+.dashboard-title-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.dashboard-events-container th {
+    width: 25%;
+}
+
+.dashboard-events-container form {
+    display: inline-block;
+}
+
+.edit-btn {
+    color: #fff !important;
+}
+
 /* footer */
 footer {
     text-align: center;
@@ -197,4 +233,11 @@ footer {
 
 footer p {
     margin-bottom: 0;
+}
+
+/* Edit Page */
+
+.img-preview {
+    width: 100px;
+    margin-top: 20px;
 }
